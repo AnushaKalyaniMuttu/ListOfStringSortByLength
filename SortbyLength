@@ -1,0 +1,1 @@
+Arrays.stream(list).sorted(Comparator.comparingInt(String::length).reversed).collect(Collectors.toList()).forEach(System.out.println);
